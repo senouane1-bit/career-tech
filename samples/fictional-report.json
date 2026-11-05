@@ -1,0 +1,77 @@
+{
+  "category": "Strong Match",
+  "score": 86,
+  "summary": "The fictional CV demonstrates React, Next.js, TypeScript and REST API experience through a practical job-board project. Express.js provides relevant evidence of Node.js development. PostgreSQL experience is not clearly documented and cannot be confirmed.",
+  "scoreExplanation": "12 of 14 weighted points are supported by CV evidence. Core framework requirements receive 3 points, API experience 2, and education 1. PostgreSQL receives 0 of 2 points because it is unconfirmed. This is documented alignment, not a prediction of hiring success.",
+  "requirements": [
+    {
+      "requirement": "React and Next.js",
+      "weight": 3,
+      "status": "demonstrated",
+      "evidence": "Built a job board with React, Next.js, and TypeScript.",
+      "explanation": "The project explicitly names both requested frontend technologies."
+    },
+    {
+      "requirement": "TypeScript",
+      "weight": 3,
+      "status": "demonstrated",
+      "evidence": "Built a job board with React, Next.js, and TypeScript.",
+      "explanation": "TypeScript is directly supported by the described project."
+    },
+    {
+      "requirement": "REST API integration",
+      "weight": 2,
+      "status": "demonstrated",
+      "evidence": "Developed REST APIs with Express.js.",
+      "explanation": "API development is documented. Clarifying how the frontend consumed these APIs would strengthen this evidence."
+    },
+    {
+      "requirement": "Collaboration with designers",
+      "weight": 3,
+      "status": "demonstrated",
+      "evidence": "Collaborated with a designer to improve navigation.",
+      "explanation": "The CV gives a specific example of design collaboration."
+    },
+    {
+      "requirement": "Computer Science degree",
+      "weight": 1,
+      "status": "demonstrated",
+      "evidence": "BSc Computer Science, 2025.",
+      "explanation": "The education requirement is directly demonstrated."
+    },
+    {
+      "requirement": "PostgreSQL",
+      "weight": 2,
+      "status": "not_clearly_described",
+      "evidence": "",
+      "explanation": "PostgreSQL is not mentioned. This does not mean the candidate lacks this skill; the document does not confirm it."
+    }
+  ],
+  "relevantExperience": [
+    {
+      "title": "Full stack job-board project",
+      "evidence": "Built a job board with React, Next.js, and TypeScript.",
+      "relevance": "Directly relevant to the required interface development stack."
+    },
+    {
+      "title": "API development",
+      "evidence": "Developed REST APIs with Express.js.",
+      "relevance": "Express.js is part of the Node.js ecosystem and supports the backend collaboration expected in this role."
+    }
+  ],
+  "suggestions": [
+    {
+      "section": "Projects",
+      "suggestion": "Group the React, Next.js and TypeScript work under a clearly named project, and explain your personal contribution.",
+      "rationale": "This makes the existing technical evidence easier to find.",
+      "evidence": "Built a job board with React, Next.js, and TypeScript."
+    },
+    {
+      "section": "Experience",
+      "suggestion": "Explain the REST endpoints you developed and how they were used. Add PostgreSQL only if you actually used it.",
+      "rationale": "The API work is relevant, while database technology is currently unconfirmed.",
+      "evidence": "Developed REST APIs with Express.js."
+    }
+  ],
+  "disclaimer": "Fictional demonstration report, not a live AI response. Unconfirmed does not mean unqualified. Never add experience or qualifications you do not possess."
+}

@@ -1,0 +1,25 @@
+{
+  "name": "careertech",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev -w frontend",
+    "dev:backend": "npm run dev -w backend",
+    "dev:web": "npm run dev:frontend",
+    "dev:api": "npm run dev:backend",
+    "build": "npm run build -w backend && npm run build -w frontend",
+    "check": "npm run check -w backend && npm run check -w frontend",
+    "test": "npm run test -w backend && node --import tsx --test scripts/deployment.test.ts",
+    "db:migrate": "node database/migrate.mjs"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

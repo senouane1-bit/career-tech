@@ -1,0 +1,1 @@
+We are looking for a Frontend Developer with React, Next.js, TypeScript, REST API integration, and PostgreSQL experience. You will build accessible interfaces, collaborate with designers, and explain your technical contributions. A degree in Computer Science or equivalent experience is preferred.

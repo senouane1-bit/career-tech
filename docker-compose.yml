@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: careertech
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-careertech_local}
+      POSTGRES_DB: careertech
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - careertech_db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U careertech -d careertech"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      DATABASE_URL: postgresql://careertech:${POSTGRES_PASSWORD:-careertech_local}@db:5432/careertech
+      FRONTEND_URL: ${FRONTEND_URL:-http://localhost:3000}
+      NODE_ENV: ${NODE_ENV:-development}
+      PORT: 4000
+      COOKIE_CROSS_SITE: ${COOKIE_CROSS_SITE:-false}
+      AI_BASE_URL: ${AI_BASE_URL:-https://api.openai.com/v1}
+      AI_API_KEY: ${AI_API_KEY:-}
+      AI_MODEL: ${AI_MODEL:-gpt-4.1-mini}
+    ports:
+      - "127.0.0.1:4000:4000"
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  careertech_db:

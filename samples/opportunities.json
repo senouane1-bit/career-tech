@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Frontend Developer",
+    "company": "Linear",
+    "status": "Interview",
+    "description": "We are looking for a Frontend Developer with React, Next.js, TypeScript, REST API integration, and PostgreSQL experience. You will build accessible interfaces, collaborate with designers, and explain your technical contributions. A degree in Computer Science or equivalent experience is preferred.",
+    "link": "",
+    "notes": "Discuss the job-board project and prepare questions about the team.",
+    "appliedDate": "2026-11-02",
+    "followUpDate": "",
+    "interviewDate": "2026-11-07"
+  },
+  {
+    "title": "Product Engineer",
+    "company": "Notion",
+    "status": "Applied",
+    "description": "We are looking for a Frontend Developer with React, Next.js, TypeScript, REST API integration, and PostgreSQL experience. You will build accessible interfaces, collaborate with designers, and explain your technical contributions. A degree in Computer Science or equivalent experience is preferred.",
+    "link": "",
+    "notes": "",
+    "appliedDate": "2026-10-31",
+    "followUpDate": "2026-11-06",
+    "interviewDate": ""
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "Vercel",
+    "status": "Saved",
+    "description": "We are looking for a Frontend Developer with React, Next.js, TypeScript, REST API integration, and PostgreSQL experience. You will build accessible interfaces, collaborate with designers, and explain your technical contributions. A degree in Computer Science or equivalent experience is preferred.",
+    "link": "",
+    "notes": "",
+    "appliedDate": "",
+    "followUpDate": "",
+    "interviewDate": ""
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Stripe",
+    "status": "Applied",
+    "description": "We are looking for a Frontend Developer with React, Next.js, TypeScript, REST API integration, and PostgreSQL experience. You will build accessible interfaces, collaborate with designers, and explain your technical contributions. A degree in Computer Science or equivalent experience is preferred.",
+    "link": "",
+    "notes": "",
+    "appliedDate": "2026-10-29",
+    "followUpDate": "2026-11-08",
+    "interviewDate": ""
+  },
+  {
+    "title": "UI Engineer",
+    "company": "Figma",
+    "status": "Offer",
+    "description": "We are looking for a Frontend Developer with React, Next.js, TypeScript, REST API integration, and PostgreSQL experience. You will build accessible interfaces, collaborate with designers, and explain your technical contributions. A degree in Computer Science or equivalent experience is preferred.",
+    "link": "",
+    "notes": "",
+    "appliedDate": "2026-10-26",
+    "followUpDate": "",
+    "interviewDate": ""
+  },
+  {
+    "title": "Frontend Engineer",
+    "company": "Framer",
+    "status": "Rejected",
+    "description": "We are looking for a Frontend Developer with React, Next.js, TypeScript, REST API integration, and PostgreSQL experience. You will build accessible interfaces, collaborate with designers, and explain your technical contributions. A degree in Computer Science or equivalent experience is preferred.",
+    "link": "",
+    "notes": "",
+    "appliedDate": "2026-10-22",
+    "followUpDate": "",
+    "interviewDate": ""
+  }
+]
